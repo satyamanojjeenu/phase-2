@@ -1,0 +1,54 @@
+header{
+  background-color: #035F69;
+  color: white;
+  font-size: 30px;
+  padding: 2%;
+  text-align:center;
+  margin: 1%;
+  border: 2px solid black;
+}
+
+#career{
+  width: 95%;
+  border: 1px solid black;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 2px 2px 5px black;
+}
+section{
+  border: 2px solid #81CFD8;
+  padding: 1%;
+  margin: 1%;
+  width: 95%;
+  background-color: #81CFD8;
+  margin-left: auto;
+  margin-right: auto;
+    border: 1px solid black;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.parent section{
+  width: 45%;
+  background-color: #81CFD8;
+  margin-left: auto;
+  margin-right: auto;
+}
+input,
+select{
+  display: block;
+  margin: .3% auto;
+  width: 90%;
+}
+.parent{
+  justify-content: center;
+}
+button
+{
+  box-shadow: 1px 1px 4px;
+  background-color: #81CFD8;
+  font-size: 20px;
+}
